@@ -10,6 +10,8 @@
 public class Grade{
     public static void main(String[] args) {
         int Marks;
-        
+        Scanner sc = new Scanner(System.in);
+
+        Ma
     }
 } 
