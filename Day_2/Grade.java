@@ -2,16 +2,18 @@
 
 /*
 100- 90 => A
-90- 80 => B
-80- 70 => C
-70- 60 => D
-60> Fail
+75- 89 => B
+50- 74 => C
+50 < FAIL
 */
 public class Grade{
     public static void main(String[] args) {
         int Marks;
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enetr your Marks:");
 
-        Ma
+        Marks = sc.nextInt();
+
+        if(Marks>=90 && Marks<=100)
     }
 } 
