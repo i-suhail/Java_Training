@@ -25,6 +25,7 @@ public class Prime {
         while (div<=n/2) {
             if(n%div==0){
                 isPrime = false;
+                div++;
             }    
         }
         // if(isPrime){
