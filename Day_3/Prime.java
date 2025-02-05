@@ -5,18 +5,16 @@ public class Prime {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number: ");
         int n = sc.nextInt();
-        int count=0;
+        int count = 0;
 
-        
-        for(int i=1; i<=n; i++){
-            if((n/2)%i==0){
-                count = count +1;
+        for (int i = 1; i <= n; i++) {
+            if ((n / 2) % i == 0) {
+                count = count + 1;
             }
         }
-        if (count>2) {
+        if (count > 2 || n==1) {
             System.out.println("No");
-        }
-        else{
+        } else {
             System.out.println("Yes");
         }
     }
