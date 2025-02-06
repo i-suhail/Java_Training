@@ -25,8 +25,8 @@ public class Prime {
         while (div<=n/2) {
             if(n%div==0){
                 isPrime = false;
-                div++;
             }    
+            div++;
         }
         // if(isPrime){
         //     System.out.println("Yes");

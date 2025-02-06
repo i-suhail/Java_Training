@@ -8,7 +8,6 @@ public class Amstrong {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         int c=num;
-        // int num = c;
 
         while(c!=0){
             rem = c%10;
