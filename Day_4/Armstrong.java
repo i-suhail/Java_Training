@@ -13,7 +13,7 @@ public class Armstrong {
         }
         System.out.println("no of dgts: "+count);
 
-        int rem=0, result=0;
+        int rem, result=0;
         int temp=num;
 
         while(temp!=0){
