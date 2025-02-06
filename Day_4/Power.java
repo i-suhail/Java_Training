@@ -4,10 +4,10 @@ public class Power {
         int base = 2, power;
         int box = 1;
 
-        while (power > 0) {
-            box = box * base;
-            power--;
-        }
+        // while (power > 0) {
+        //     box = box * base;
+        //     power--;
+        // }
         System.out.println(box);
 
     }
