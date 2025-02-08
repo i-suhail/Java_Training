@@ -13,8 +13,6 @@ public class ArrayDemo {
             System.out.println(a[i]+" ");
         }
 
-        // Heap 
-
         // 2nd way
         Scanner sc = new Scanner(System.in);
         

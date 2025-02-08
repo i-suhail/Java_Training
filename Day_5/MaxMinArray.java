@@ -20,5 +20,6 @@ public class MaxMinArray {
             }
         }
         System.out.println(max);
+        sc.close();
     }
 }

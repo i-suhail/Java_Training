@@ -1,14 +1,14 @@
 public class Power {
-    public static void main(String[] args) {
+    public static void main(String[] args) {       
+        int base = 31;
+        int power = 3;
+        int num = 1;
 
-        int base = 2, power;
-        int box = 1;
+        for (int i = 1; i <= power; i++) {
+            num *= base;
+        }
 
-        // while (power > 0) {
-        //     box = box * base;
-        //     power--;
-        // }
-        System.out.println(box);
+        System.out.println(num);
 
     }
 }

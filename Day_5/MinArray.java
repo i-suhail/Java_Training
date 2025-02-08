@@ -22,5 +22,6 @@ public class MinArray {
             }
         }
         System.out.println(min);
+        sc.close();
     }
 }
