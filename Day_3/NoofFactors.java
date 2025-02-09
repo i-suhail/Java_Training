@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Count {
+public class NoofFactors {
     public static void main(String[] args) {
         // for(int i=1; i<60; i++){
         Scanner sc  = new Scanner(System.in);

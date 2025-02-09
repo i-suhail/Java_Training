@@ -7,12 +7,12 @@ public class Oddeve{
         System.out.println("Enter a number to find Odd or Even: ");
 
         int n = sc.nextInt();
-        if(n%2==0){
-            System.out.println(n+" is an Even number.");
-        }
-        else {
-            System.out.println(n+" is an Odd number.");
-        }
-        // System.out.println((n%2==0)?("Even"):("Odd"));
+        // if(n%2==0){
+        //     System.out.println(n+" is an Even number.");
+        // }
+        // else {
+        //     System.out.println(n+" is an Odd number.");
+        // }
+        System.out.println((n%2==0)?("Even"):("Odd"));
     }
 }

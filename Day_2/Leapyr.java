@@ -9,7 +9,7 @@ public class Leapyr {
         System.out.println("Enter a Year");
         Year = sc.nextInt();
 
-        if(Year%4==0 && Year%100!=0 || Year%4==0){
+        if(Year%4==0 && Year%100!=0 || Year%400==0){
             System.out.println("Leap Year");
         }
         else{

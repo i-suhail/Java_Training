@@ -3,25 +3,20 @@ import java.util.Scanner;
 public class Amstrong {
     public static void main(String[] args) {
         int rem;
-        int sum = 0;
+        int sum=0;
 
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         int c=num;
 
-        while(c!=0){
-            rem = c%10;
+        while(num!=0){
+            rem = num%10;
             rem=rem*rem*rem;
             sum=rem+sum;
-            c= c/10;
+            num= num/10;
 
         }
         // System.out.println(sum);
-        if(sum == num){
-            System.out.println("The given number is amstron...");
-        }
-        else{
-            System.out.println("The given number is not amstrong");
-        }
+        System.out.println(sum==c?"Armstrong":"Not an Armstrong");
     }
 }

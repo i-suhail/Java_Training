@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class CountNumArr {
+public class ArrDup {
     public static void main(String[] args) {
         int arr[] = {1,2,3,4,5,2,5,4};
         int freq[] = new int[arr.length];

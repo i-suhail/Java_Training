@@ -1,9 +1,9 @@
 public class Nestdif {
     public static void main(String[] args) {
         int a = 60;
+        boolean hallTicket = true;
 
-        boolean hasTicket = true;
-        if(hasTicket){
+        if(hallTicket){
             if(a>60){
                 System.out.println("Eligible for Test.");
             }

@@ -9,8 +9,12 @@ public class prct {
            // ---------------IF ELSE CONDITION-----------------
         if (a > b) {
             System.out.println(a + " os greater");
-        } else {
-            System.out.println(b+" is greater");
+        }
+        else if(a==b) {
+            System.out.println("both are equal");
+        }
+        else{
+            System.out.println("B is greater");
         }
     }    
 }
