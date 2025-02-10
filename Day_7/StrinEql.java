@@ -23,7 +23,6 @@ public class StrinEql {
         System.out.println(s5==s6?"same":"not same");
 
         String s7 = new String("ofg");
-        String s8 = new String("ofg");
         String s9 = new String(s7);
         System.out.println(s7==s9?"same":"not same");
 
