@@ -1,18 +1,21 @@
 package tamilnadu.chennai;
 
 public class Office {
+    public Office(){
+        System.out.println("Welcome To Office...");
+    }
     public static void main(String[] args) {
         Office off = new Office();
         off.work();
         off.do_plan();
     }
-    void work(){
+    void work(){ //package private
         System.out.println("Working");
     }
-    void wfh(){
+    public void wfh(){
         System.out.println("Working From Home");
     }
-    void recruit(){
+    public void recruit(){
         System.out.println("Recruitment");
     }
     void get_travel_allowances(){
