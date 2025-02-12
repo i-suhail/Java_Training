@@ -49,21 +49,21 @@ public class StringMethds {
         System.out.println(strng.indexOf("o",5));
 
         // ------------------ lastIndexOf ( )-----------------
-        System.out.println(strng.lastIndexOf("e"));
+        System.out.println(strng.lastIndexOf(" "));
         
         // ------------------ substring ( )-----------------
-        System.out.println(strng.substring(3));
-        System.out.println(strng.substring(5, strng.length()-1));
+        // System.out.println(strng.substring(3));
+        // System.out.println(strng.substring(5, strng.length()-1));
         
-        // ------------------ subSequence ( )-----------------
-        // System.out.println(strng.subSequence(3,20)); //Handles Exception as well.
-        System.out.println(strng.subSequence(5, strng.length()-1)); //2 parameters are must
+        // // ------------------ subSequence ( )-----------------
+        // // System.out.println(strng.subSequence(3,20)); //Handles Exception as well.
+        // System.out.println(strng.subSequence(5, strng.length()-1)); //2 parameters are must
 
-        // ------------------ trim ( )-----------------
-        String str3 = "      New Developer        ";
-        System.out.println(str3.trim());
+        // // ------------------ trim ( )-----------------
+        // String str3 = "      New Developer        ";
+        // System.out.println(str3.trim());
 
-        // ------------------ repeat ( )-----------------
-        System.out.println(str3.repeat(4));
+        // // ------------------ repeat ( )-----------------
+        // System.out.println(str3.repeat(4));
     }
 }

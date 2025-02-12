@@ -1,7 +1,7 @@
 
 // ---------------------------ONLY PRACTICE CODE NOT FOR USE-----------------------
 package Sunday_Assignment;
-import java.util.Scanner;
+// import java.util.Scanner;
 public class Anagram {
     public static void main(String[] args) {
         String s1 = "Tab"; 
