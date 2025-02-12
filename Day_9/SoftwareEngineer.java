@@ -1,3 +1,5 @@
+package Day_9;
+
 public class SoftwareEngineer extends Parent1 implements TrafficRules, EmployeeRules{
     public static void main(String[] args) {
         SoftwareEngineer se = new SoftwareEngineer();
